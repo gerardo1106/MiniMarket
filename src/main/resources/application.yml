@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/platzi-market
+    username: postgres
+    password: root
+server:
+  servlet:
+    context-path: /platzi-market/api
+  port: 8090
+
+
